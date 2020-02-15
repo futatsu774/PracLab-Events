@@ -9,8 +9,8 @@ function upDate(previewPic){
       
       
       //var c=a.style.backgroundImage='url(b)'
-      var urlString = 'url(' + previewPic.src + ')';
-      document.getElementById("image").style.backgroundImage = urlString;
+      var url = 'url(' + previewPic.src + ')';
+      document.getElementById("image").style.backgroundImage = url;
 
       document.getElementById("image").innerHTML=previewPic.alt
 
